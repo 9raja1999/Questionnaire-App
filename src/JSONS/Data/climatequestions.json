@@ -1,0 +1,130 @@
+{
+    "questions" : [
+        {   
+            "quesId" : 1,
+            "ques" : "Do you know about climate change",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 2,
+            "ques" : "Do you know how climate change affects our livelihood",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 3,
+            "ques" : "Do you know how climate change affects the water pollution",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 4,
+            "ques" : "Do you know how climate change affects the air pollution",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 5,
+            "ques" : "Do you know how climate change affects the environmental pollution",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 6,
+            "ques" : "Was this Questionere benificial to you",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        }
+    ]
+}

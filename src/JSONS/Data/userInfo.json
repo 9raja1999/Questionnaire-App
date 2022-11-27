@@ -1,0 +1,51 @@
+{
+    "questions": [
+        {   
+            "language" : "",
+            "ques": "What is your Preffered Language",
+            "options": [
+                {
+                    "opt": "Urdu",
+                    "selected" : false,
+                    "id" : 1
+                },
+                {
+                    "opt": "English",
+                    "selected" : false,
+                    "id" : 2
+                }
+            ]
+        },
+        {   
+            "name" : "",
+            "ques": "What is your Name",
+            "options": null
+        },
+        {   
+            "age" : "",
+            "ques": "What is your age group",
+            "options": [
+                {
+                    "opt": "5 to 10",
+                    "selected" : false,
+                    "id" : 1
+                },
+                {
+                    "opt": "11 to 18",
+                    "selected" : false,
+                    "id" : 2
+                },
+                {
+                    "opt": "18 above",
+                    "selected" : false,
+                    "id" : 3
+                }
+            ]
+        },
+        {   
+            "profession" : "",
+            "ques": "What is your profession",
+            "options": null
+        }
+    ]
+}
