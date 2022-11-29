@@ -94,7 +94,7 @@ export default function Questionere({ navigation }) {
                                 <YoutubePlayer
                                     height={300}
                                     play={false}
-                                    videoId={'84WIaK3bl_s'}
+                                    videoId={item.videoID}
                                 />
                             </View>
                         }
@@ -183,7 +183,7 @@ const getStyles = () => StyleSheet.create({
     },
     questions: {
         backgroundColor: 'white',
-        // height: 400,
+        // height: 8?00,
         borderBottomWidth: 1,
         borderRadius: 10,
         marginBottom: 10,
@@ -229,7 +229,7 @@ const getStyles = () => StyleSheet.create({
     },
     player: {
         // backgroundColor : 'red',
-        height: 200,
+        // height: 400,
         paddingTop: 20
     },
     footerStyle: {

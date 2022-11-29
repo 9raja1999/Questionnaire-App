@@ -60,6 +60,11 @@ export default function Info({ navigation }) {
                 setAnswers({ ...answers, language: option.opt })
             if (item == 'age')
                 setAnswers({ ...answers, age: option.opt })
+            if (item == 'profession')
+                setAnswers({ ...answers, profession: option.opt })
+            if(item == 'name')
+                setAnswers({ ...answers, name: option.opt })
+
 
         })
     }
@@ -71,8 +76,8 @@ export default function Info({ navigation }) {
         Object.keys(questionToDisplay).map((item) => {
             if (item == 'name')
                 setAnswers({ ...answers, name: userInput })
-            if (item == 'profession')
-                setAnswers({ ...answers, profession: userInput })
+            // if (item == 'profession')
+            //     setAnswers({ ...answers, profession: userInput })
 
         })
     }
@@ -101,7 +106,7 @@ export default function Info({ navigation }) {
         })
 
         setIsValidated(isEmpty);
-
+        console.log(answers)
         // isEmpty == true ? toaster.show({ message: 'Fill out All feilds to continue',type : 'info', position : 'top'}) : null
         if(isEmpty == true ){
             ToastAndroid.show("All feilds are mandatory", ToastAndroid.SHORT)
@@ -140,6 +145,7 @@ export default function Info({ navigation }) {
                                 counter == questions.length - 1 ? (
                                     <TouchableOpacity
                                         style={styles.nextButton}
+                                        onPress={()=>submitInfo()}
                                     >
                                         <Text style={styles.nextButton__text}>Submit</Text>
                                     </TouchableOpacity>

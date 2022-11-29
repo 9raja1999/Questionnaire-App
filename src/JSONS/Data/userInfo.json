@@ -18,34 +18,81 @@
         },
         {   
             "name" : "",
-            "ques": "What is your Name",
-            "options": null
+            "ques": "Gender",
+            "options": [
+                {
+                    "opt": "Male",
+                    "selected" : false,
+                    "id" : 1
+                },
+                {
+                    "opt": "Female",
+                    "selected" : false,
+                    "id" : 2
+                },
+                {
+                    "opt": "Do not want to disclose",
+                    "selected" : false,
+                    "id" : 2
+                }
+            ]
         },
         {   
             "age" : "",
             "ques": "What is your age group",
             "options": [
                 {
-                    "opt": "5 to 10",
+                    "opt": "6 to 12",
                     "selected" : false,
                     "id" : 1
                 },
                 {
-                    "opt": "11 to 18",
+                    "opt": "13 to 18",
                     "selected" : false,
                     "id" : 2
                 },
                 {
-                    "opt": "18 above",
+                    "opt": "18 to 30",
                     "selected" : false,
                     "id" : 3
+                },
+                {
+                    "opt": "30 to 50",
+                    "selected" : false,
+                    "id" : 4
+                },
+                {
+                    "opt": "50 above",
+                    "selected" : false,
+                    "id" : 4
                 }
             ]
         },
         {   
             "profession" : "",
             "ques": "What is your profession",
-            "options": null
+            "options": [
+                {
+                    "opt": "Service",
+                    "selected" : false,
+                    "id" : 1
+                },
+                {
+                    "opt": "Teacher",
+                    "selected" : false,
+                    "id" : 2
+                },
+                {
+                    "opt": "Buisness Man",
+                    "selected" : false,
+                    "id" : 3
+                },
+                {
+                    "opt": "Student",
+                    "selected" : false,
+                    "id" : 4
+                }
+            ]
         }
     ]
 }

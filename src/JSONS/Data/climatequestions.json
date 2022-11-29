@@ -2,7 +2,8 @@
     "questions" : [
         {   
             "quesId" : 1,
-            "ques" : "Do you know about climate change",
+            "ques" : " Do you know what climate change is",
+            "videoID" : "QlQ-MEZgRGY",
             "options" : [
                 {
                     "id" : 1,
@@ -23,7 +24,8 @@
         },
         {
             "quesId" : 2,
-            "ques" : "Do you know how climate change affects our livelihood",
+            "ques" : " Do you know how it is impacting our livelihood",
+            "videoID" : "lhkgmKXOM1A",
             "options" : [
                 {
                     "id" : 1,
@@ -44,7 +46,8 @@
         },
         {
             "quesId" : 3,
-            "ques" : "Do you know how climate change affects the water pollution",
+            "ques" : "Do you know how water resources are being affected by climate change",
+            "videoID" : "Q8B4tST8ti8",
             "options" : [
                 {
                     "id" : 1,
@@ -65,7 +68,8 @@
         },
         {
             "quesId" : 4,
-            "ques" : "Do you know how climate change affects the air pollution",
+            "ques" : " Do you know how food resources are being affected by climate change",
+            "videoID" : "nXOB8YPyc04",
             "options" : [
                 {
                     "id" : 1,
@@ -86,7 +90,8 @@
         },
         {
             "quesId" : 5,
-            "ques" : "Do you know how climate change affects the environmental pollution",
+            "ques" : "Do you know how shelter is being affected by climate change",
+            "videoID" : "qVVwjHqWCl8",
             "options" : [
                 {
                     "id" : 1,
@@ -107,7 +112,52 @@
         },
         {
             "quesId" : 6,
-            "ques" : "Was this Questionere benificial to you",
+            "ques" : "Do you know how clothing is being affected by climate change",
+            "videoID" : "QlQ-MEZgRGY",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 7,
+            "ques" : "Do you know how Environmental Resources is being affected by climate change",
+            "videoID" : "qiYBP-RVx20",
+            "options" : [
+                {
+                    "id" : 1,
+                    "opt": "Yes",
+                    "selected" : false
+                },
+                {
+                    "id" : 2,
+                    "opt": "Maybe",
+                    "selected" : false
+                },
+                {
+                    "id" : 3,
+                    "opt": "No",
+                    "selected" : false
+                }
+            ]
+        },
+        {
+            "quesId" : 8,
+            "ques" : "Do you know how health is being affected by climate change",
+            "videoID" : "eZiiIPEqSiM",
             "options" : [
                 {
                     "id" : 1,
